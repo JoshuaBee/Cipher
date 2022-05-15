@@ -1,0 +1,48 @@
+/*--------------------------------//
+//                                //
+//            Settings            //
+//                                //
+//--------------------------------*/
+.function__container {
+	height: 100%;
+}
+
+.function__container[data-hidden],
+.function__container[data-hidden="true"] {
+	display: none;
+}
+
+.card {
+	align-items: center;
+	background-color: aliceblue;
+	border: 2px solid black;
+	border-radius: 0.5rem;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card__header {
+	align-items: center;
+	display: flex;
+	height: 5rem;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+}
+
+.card__actions-container {
+	display: flex;
+	gap: 0.5rem;
+	position: absolute;
+	right: 1rem;
+	top: 0.5rem;
+}
+
+.card__settings-container {
+	height: 0;
+	overflow: hidden;
+	transition: height 400ms ease-in-out;
+	width: 100%;
+}

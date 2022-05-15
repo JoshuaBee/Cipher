@@ -28,16 +28,48 @@
 
 		<!-- Elements -->
 		<link href="styles/4-elements/body.css" rel="stylesheet" />
+		<link href="styles/4-elements/main.css" rel="stylesheet" />
 		
 		<!-- Components -->
 		<link href="styles/6-components/button.css" rel="stylesheet" />
 		<link href="styles/6-components/footer.css" rel="stylesheet" />
+		<link href="styles/6-components/input-group.css" rel="stylesheet" />
+		<link href="styles/6-components/settings.css" rel="stylesheet" />
+
+		<!-- Utilities -->
+		<link href="styles/7-utilities/display.css" rel="stylesheet" />
 	</head>
 
 	<body>
 
 		<main>
-			
+			<div class="function__container"></div>
+
+			<div class="results">
+				<div class="input-group">
+					<label for="input">Input:</label>
+					<textarea
+						id="input"
+						name="input"
+						rows="5"
+						cols="40"
+						placeholder="Put your input here..."
+					>WE ARE DISCOVERED FLEE AT ONCE</textarea>
+				</div>
+
+				<div id="drag-area" style="background-color: yellow; height: 80vh;"></div>
+
+				<div class="input-group">
+					<label for="output">Output:</label>
+					<textarea
+						id="output"
+						name="output"
+						rows="5"
+						cols="40"
+						placeholder="Your output comes here..."
+					></textarea>
+				</div>
+			</div>
 		</main>
 
 		<footer>
